@@ -1,0 +1,8 @@
+.img-layer::before,
+.img-layer::after {
+  display: none;
+}
+
+header {
+  padding: 30px 40px;
+}

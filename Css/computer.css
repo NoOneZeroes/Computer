@@ -1,0 +1,12 @@
+.img-layer::before,
+.img-layer::after {
+  display: none;
+}
+
+header {
+  padding: 30px 40px;
+}
+
+.discount {
+  margin: 100px 0 0 0;
+}

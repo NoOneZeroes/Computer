@@ -1,0 +1,80 @@
+.img-layer::before,
+.img-layer::after {
+  display: none;
+}
+
+header {
+  padding: 30px 40px;
+}
+
+.laptop .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 100px 0;
+}
+
+.laptop .container .image {
+  background-color: white;
+}
+
+.laptop .container .image img {
+  max-width: 600px;
+}
+
+.laptop .container .text {
+  text-align: right;
+  padding: 50px;
+}
+
+.laptop .container .text h1 {
+  text-align: right;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.laptop .container .text p {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: right;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.laptop .container .text a {
+  padding: 15px 50px;
+  background-color: var(--teal);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  transition: 0.6s;
+}
+
+.laptop .container .text a:hover {
+  background-color: black;
+}
+
+@media (max-width:1200px) {
+  .laptop .container .image img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width:900px) {
+  .laptop .container {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .laptop .container .image img {
+    max-width: 100%;
+  }
+
+  .laptop .container .image {
+    max-width: 600px;
+  }
+}
